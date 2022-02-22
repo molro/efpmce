@@ -1,0 +1,60 @@
+/*
+  AUTO GRID
+  Set the minimum item size with `--auto-grid-min-size` and you'll
+  get a fully responsive grid with no media queries.
+*/
+.auto-grid {
+    --auto-grid-min-size: 16rem;
+  }
+  
+  .auto-grid > * {
+    max-width: 400px;
+  }
+  
+  .auto-grid > * + * {
+    margin-top: 2rem;
+  }
+  
+  @supports(display: grid) {
+    .auto-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+      grid-gap: 1rem;
+    }
+    
+    .auto-grid > * {
+      max-width: unset;
+    }
+  
+    .auto-grid > * + * {
+      margin-top: unset;
+    }
+  }
+  
+  /*
+    WRAPPER
+    A utility with a max width that contains child elements and horizontal centers them
+  */
+  .wrapper {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    margin-top: 6rem;
+  }
+    
+  /* Presentational styles */
+  
+.grup {
+      list-style: none;
+      padding: 0;
+  }
+.items {
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    /*background: #22a6b3;*/
+    color: #ffffff;
+  }
+  
+.items:hover{  transform: scale(1.05,1.05);}
+  
