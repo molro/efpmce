@@ -1,5 +1,5 @@
 # Examen de Fundamentos Prácticos 
-Proyecto mini web, que reúne los enlaces que necesitan los profesosres durante la realización del Examen.
+Proyecto mini web, que reúne los enlaces que necesitan los profesores durante la realización del Examen.
 Barcelona, Febrero 2022 
 
 ## Developer. 
