@@ -38,11 +38,7 @@ html {
   div.photo {
     display: none;
   }
-  
-  div.logo {
-    display: none;
-  }
-
+ 
   div.contact {
     width: 100%;
   }
@@ -210,8 +206,4 @@ color: #ffffff;
 display: inline;
 /* padding: auto;
 margin: auto; */
-}
-
-a {
-  text-decoration: none;
 }
