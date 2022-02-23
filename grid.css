@@ -49,11 +49,12 @@
       padding: 0;
   }
 .items {
-    padding: 1rem 1rem;
+    padding-top: 1rem 0rem;
     text-align: center;
     font-size: 1.2rem;
     /*background: #22a6b3;*/
     color: #ffffff;
+    border-radius: 30px 30px 30px 30px;
   }
   
 .items:hover{  transform: scale(1.05,1.05);}
