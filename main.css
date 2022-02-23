@@ -211,3 +211,7 @@ display: inline;
 /* padding: auto;
 margin: auto; */
 }
+
+a {
+  text-decoration: none;
+}
