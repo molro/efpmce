@@ -39,6 +39,10 @@ html {
     display: none;
   }
   
+  div.logo {
+    display: none;
+  }
+
   div.contact {
     width: 100%;
   }
